@@ -1,7 +1,4 @@
----
-title: "R에서 MySQL데이터의 접근"
-author: Jinseog Kim 
----
+# R에서 MySQL데이터의 접근
 
 ## ODBC(Open DataBase Connectivity)
 
