@@ -1,37 +1,8 @@
 ---
 title: "R에서 MySQL데이터의 접근"
-author: |
-    | Jinseog Kim 
-    | Dongguk University
-    | jinseog.kim@gmail.com
-date: "`r format(Sys.time(), '%Y-%m-%d')`"
-output: 
-  beamer_presentation:
-    colortheme: dolphin
-    fonttheme: structurebold
-    keep_tex: no
-    theme: AnnArbor
-#    toc: yes
-mainfont: NanumGothicBold
-fontsize: 10pt
-header-includes:
-- \usepackage{kotex}
-- \usepackage{longtable}
-- \usepackage{graphicx}
-- \usepackage{amsmath,amsfonts,amssymb}
-- \ifpdf
-- \input glyphtounicode
-- \pdfgentounicode=1
-- \fi
+author: Jinseog Kim 
 ---
 
-```{r setup, include=FALSE}
-options(width=60)
-library(knitr)
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
-                      dev="cairo_pdf", eval=FALSE, fig.path='figure/', fig.align='center', fig.show='hide', 
-                      fig.width=7, fig.height=5, out.width = '250pt', out.height = '150pt')
-```
 ## ODBC(Open DataBase Connectivity)
 
 1. ODBC는 마이크로소프트가 만든 데이터베이스에 접근하기 위한 소프트웨어의 표준 규격
